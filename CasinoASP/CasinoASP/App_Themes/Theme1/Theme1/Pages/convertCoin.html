@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Convert Coin</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="../css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="../css/responsive.css">
+
+      <!-- Messagebox-->
+      <link rel="stylesheet" href="../css/messagebox.css">
+
+      <!-- Btn-->
+      <link rel="stylesheet" href="../css/btn.css">
+
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+        <!-- loader  -->
+        <div class="loader_bg">
+            <div class="loader"><img src="../images/loading.gif" alt="#" /></div>
+        </div>
+      <div class="wrapper">
+         <!-- end loader -->
+         <div id="content">
+            <!-- header -->
+            <header>
+               <!-- header inner -->
+               <div class="head_top">
+                  <div class="header">
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-md-3 logo_section">
+                              <div class="full">
+                                 <div class="center-desk">
+                                    <div class="logo">
+                                       <a href="../index.html"><img src="../images/logo.png" alt="#"></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </header>
+            <!-- end header inner -->
+            <!-- end header -->
+        
+        <!-- Convert-->
+        <div id="contact" class="reqeste">
+            <!-- Cash to coin-->
+            <div class="container cashtocoinpage" style="margin-top: 100px;" id="cashtocoinpage">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>Cash to Coin</h2>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-6 offset-md-3">
+                     <form class="form_main">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label class="form_control" >
+                                   Your Coin is: <label>100</label>
+                                </label>
+                             </div>
+                           <div class="col-md-12">
+                              <label class="form_control" >
+                                 Your Cash is: <label>10000</label>
+                              </label>
+                           </div>
+                           <div class="col-md-12">
+                              <input class="form_control" placeholder="How may coin that you want? 1 Coin is 5000 Cash" type="text" name="cashtocoin">
+                           </div>
+                           <div class="col-md-12">
+                                <label class="form_control" >
+                                Total Price: <label>100000</label> Cash
+                                </label>
+                            </div>
+                            <div class="col-md-12" style="color: white; font-size: 20px; text-align: center;" >
+                                <p>
+                                    Peringatan
+                                </p>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="col-md-12">
+                        <button class="send_btn">Convert!</button>
+                    </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Coin to cash -->
+            <div class="container cointocashpage" style="margin-top: 100px;" id="cointocashpage">
+                <div class="row">
+                   <div class="col-md-12">
+                      <div class="titlepage">
+                         <h2>Coin to Cash</h2>
+                         <span></span>
+                      </div>
+                   </div>
+                </div>
+                <div class="row">
+                   <div class="col-md-6 offset-md-3">
+                      <form class="form_main">
+                         <div class="row">
+                            <div class="col-md-12">
+                               <label class="form_control" >
+                                  Your Coin is: <label>100</label>
+                               </label>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="form_control" >
+                                   Your Cash is: <label>100000</label>
+                                </label>
+                             </div>
+                            <div class="col-md-12">
+                               <input class="form_control" placeholder="How may coin that you want to change into cash? 1 Coin is 4900 Cash" type="text" name="cashtocoin">
+                            </div>
+                            <div class="col-md-12">
+                                 <label class="form_control" >
+                                 Total Cash that you will get: <label>100000</label> Cash
+                                 </label>
+                             </div>
+                             <div class="col-md-12" style="color: white; font-size: 20px; text-align: center;" >
+                                <p>
+                                    Peringatan
+                                </p>
+                             </div>
+                         </div>
+                     </form>
+                     <div class="col-md-12">
+                         <button class="send_btn">Convert!</button>
+                     </div>
+                   </div>
+                </div>
+             </div>
+
+             <div class="col-md-12">
+                <button class="send_btn" id="cashtocoinbutton">Coin to Cash?</button>
+            </div>
+            <div class="col-md-12">
+                <button class="send_btn" id="cointocashbutton">Cash to Coin?</button>
+            </div>
+         </div>
+
+         <!--  footer -->
+         <footer>
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <div class="address">
+                                 <h3>Links</h3>
+                                 <ul class="Menu_footer">
+                                    <li class="active"> <a href="../index.html">Home</a> </li>
+                                    <li><a href="../index.html#about">About</a> </li>
+                                    <li><a href="../index.html#game">Game</a> </li>
+                                    <br><br>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <div class="address">
+                                 <h3>Contact us</h3>
+                                 <ul class="Links_footer">
+                                    <li>+89 123-2830-232134</li>
+                                    <li>OnlinegameWD@WD.net</li>
+                                    <li>Prof. DR. Ir R. Roosseno Street, Beji, Depok City, Jabar 16425</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- end footer -->
+      </div>
+      <div class="overlay"></div>
+
+
+      <!-- Javascript files-->
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/jquery-3.0.0.min.js"></script>
+
+      <!-- Load Animation -->
+      <script src="../js/custom.js"></script>
+      <script>
+         $(document).ready(function() {
+             $(".fancybox").fancybox({
+                 openEffect: "none",
+                 closeEffect: "none"
+             });
+         
+             $(".zoom").hover(function() {
+         
+                 $(this).addClass('transition');
+             }, function() {
+         
+                 $(this).removeClass('transition');
+             });
+         });
+      </script>
+      
+     <!-- Javascript files-->
+     <script src="../js/convert.js"></script>
+   </body>
+</html>
+

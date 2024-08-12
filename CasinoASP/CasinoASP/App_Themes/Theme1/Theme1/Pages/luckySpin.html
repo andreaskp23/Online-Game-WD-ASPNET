@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Lucky Spin</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="../css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" href="../css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="../css/responsive.css">
+
+      <!-- Messagebox-->
+      <link rel="stylesheet" href="../css/messagebox.css">
+
+      <!-- Btn-->
+      <link rel="stylesheet" href="../css/btn.css">
+
+      <!-- fevicon -->
+      <link rel="icon" href="../images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <!--Google Font>-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+   </head>
+   <!-- body -->
+   <body class="main-layout">
+      <!-- loader  -->
+      <div class="loader_bg">
+         <div class="loader"><img src="../images/loading.gif" alt="#" /></div>
+      </div>
+      <div class="wrapper">
+         <!-- end loader -->
+         <div class="sidebar">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+               <div id="dismiss">
+                  <i class="fa fa-arrow-left"></i>
+               </div>
+               <ul class="list-unstyled components">
+                  <li class="active">
+                     <a href="../index.html">Home</a>
+                  </li>
+                  <li>
+                     <a href="../index.html#about">About</a>
+                  </li>
+                  <li>
+                     <a href="../index.html#game">Game</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+         <div id="content">
+            <!-- header -->
+            <header>
+               <!-- header inner -->
+               <div class="head_top">
+                  <div class="header">
+                     <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-md-3 logo_section">
+                              <div class="full">
+                                 <div class="center-desk">
+                                    <div class="logo">
+                                       <a href="../index.html"><img src="../images/logo.png" alt="#"></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-9">
+                              <div class="right_header_info">
+                                 <ul>
+                                    <li class="menu_iconb">
+                                       <a href="Javascript:void(0)" id="openMessagebox-login">Login</a>
+                                    </li>
+                                    <li class="menu_iconc">
+                                       <a href="Javascript:void(0)" id="openMessagebox-register">Register</a>
+                                    </li>
+                                    <li class="menu_icond">
+                                       <a href="Javascript:void(0)" id="openMessagebox-register">Logout</a>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </header>
+            <!-- end header inner -->
+            <!-- end header -->
+        
+        <!-- Game-->
+        <section class="slider_section">
+            <div class="banner_main">
+               <img src="../images/luckyslot_machine.jpg" alt="#"/>
+               <div class="container-fluid padding3">
+                  <div class="row">
+                     <div class="col-md-12">
+                         <!-- Game Component -->
+                        <button class="spinBtn">
+                           <h2>Spin (Your coin is)</h2>
+                        </button>
+                        <div class="luckyslot-peringatan">
+                           <h1>Peringatan</h1>
+                        </div>
+                        <div class="luckyspin-layout">
+                           <div class="lucky-number1">
+                              <h1>7</h1>
+                           </div>
+                           <div class="lucky-number2">
+                              <h1>7</h1>
+                           </div>
+                           <div class="lucky-number3">
+                              <h1>7</h1>
+                           </div>
+                        </div>
+                         <!-- Game Component End -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- end Game-->
+
+         <!-- Message Box -->               
+         <div id="messagebox-login">
+            <button id="closeMessagebox-login" class="closeBtn"><b>X</b></button>
+            <div class="registerPage">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>Login</h2>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-6 offset-md-3">
+                     <form id="cochang" class="form_main">
+                        <div class="row">
+                           <img src="../images/cardscan.jpg" alt="" style="border: 1px solid black; border-radius: 10px; margin-bottom: 5px;">
+                           <p style="color: white; text-align: center; margin-bottom: 10px;">Scan the card into the scanner to Login</p>
+                           <div class="col-md-12">
+                              <input class="form_control" placeholder="ID" type="text" name="ID">
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div id="messagebox-register">
+            <button id="closeMessagebox-register" class="closeBtn"><b>X</b></button>
+            <div class="registerPage">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="titlepage">
+                        <h2>Register</h2>
+                        <span></span>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-6 offset-md-3">
+                     <form id="cochang" class="form_main">
+                        <div class="row">
+                           <div class="col-md-12">
+                              <input class="form_control" placeholder="Name" type="text" name="Name">
+                           </div>
+                           <div class="col-md-12">
+                              <input class="form_control" placeholder="Email" type="text" name="Email">
+                           </div>
+                           <div class="col-md-12">
+                              <input class="form_control" placeholder="ID" type="text" name="ID">
+                           </div>
+                        </div>
+                     </form>
+                     <div class="col-md-12">
+                        <button class="send_btn">Send</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- end Message Box -->
+
+         <!--  footer -->
+         <footer>
+            <div class="footer">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="row">
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <div class="address">
+                                 <h3>Links</h3>
+                                 <ul class="Menu_footer">
+                                    <li class="active"> <a href="../index.html">Home</a> </li>
+                                    <li><a href="../index.html#about">About</a> </li>
+                                    <li><a href="../index.html#game">Game</a> </li>
+                                    <br><br>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                              <div class="address">
+                                 <h3>Contact us</h3>
+                                 <ul class="Links_footer">
+                                    <li>+89 123-2830-232134</li>
+                                    <li>OnlinegameWD@WD.net</li>
+                                    <li>Prof. DR. Ir R. Roosseno Street, Beji, Depok City, Jabar 16425</li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+         <!-- end footer -->
+      </div>
+      <div class="overlay"></div>
+
+
+      <!-- Javascript files-->
+      <script src="../js/jquery.min.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+      <script src="../js/jquery-3.0.0.min.js"></script>
+      <!-- Load Animation -->
+      <script src="../js/custom.js"></script>
+      <script>
+         $(document).ready(function() {
+             $(".fancybox").fancybox({
+                 openEffect: "none",
+                 closeEffect: "none"
+             });
+         
+             $(".zoom").hover(function() {
+         
+                 $(this).addClass('transition');
+             }, function() {
+         
+                 $(this).removeClass('transition');
+             });
+         });
+      </script>
+     <!-- Javascript files-->
+     <script src="../js/messagebox.js"></script>
+   </body>
+</html>
+

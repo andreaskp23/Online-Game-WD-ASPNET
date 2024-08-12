@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andreas\\Downloads\\Online Game WD ASP.Net\\CasinoASP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEC16F4-9B13-474B-A4E4-C5997E78C20F}|CasinoASP\\CasinoASP.csproj|c:\\users\\andreas\\downloads\\online game wd asp.net\\casinoasp\\casinoasp\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEC16F4-9B13-474B-A4E4-C5997E78C20F}|CasinoASP\\CasinoASP.csproj|solutionrelative:casinoasp\\home.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BEC16F4-9B13-474B-A4E4-C5997E78C20F}|CasinoASP\\CasinoASP.csproj|C:\\Users\\Andreas\\Downloads\\Online Game WD ASP.Net\\CasinoASP\\casinoasp\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BEC16F4-9B13-474B-A4E4-C5997E78C20F}|CasinoASP\\CasinoASP.csproj|solutionrelative:casinoasp\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Andreas\\Downloads\\Online Game WD ASP.Net\\CasinoASP\\CasinoASP\\Home.aspx.cs",
+              "RelativeDocumentMoniker": "CasinoASP\\Home.aspx.cs",
+              "ToolTip": "C:\\Users\\Andreas\\Downloads\\Online Game WD ASP.Net\\CasinoASP\\CasinoASP\\Home.aspx.cs",
+              "RelativeToolTip": "CasinoASP\\Home.aspx.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAYwF0AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:46:46.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Koneksi.cs",
+              "DocumentMoniker": "C:\\Users\\Andreas\\Downloads\\Online Game WD ASP.Net\\CasinoASP\\CasinoASP\\Koneksi.cs",
+              "RelativeDocumentMoniker": "CasinoASP\\Koneksi.cs",
+              "ToolTip": "C:\\Users\\Andreas\\Downloads\\Online Game WD ASP.Net\\CasinoASP\\CasinoASP\\Koneksi.cs",
+              "RelativeToolTip": "CasinoASP\\Koneksi.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T07:47:36.715Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

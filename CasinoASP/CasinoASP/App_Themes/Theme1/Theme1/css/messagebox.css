@@ -1,0 +1,25 @@
+.messageform {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1b0905;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.registerPage {
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 32%;
+    margin: 6.5%;
+    height: 650px;
+    background-color: rgb(93, 0, 0);
+    border: 2px double black;
+    border-radius: 30px;
+}
+
+/*Convert Page*/
+#cashtocoinpage {
+    display: none;
+}
